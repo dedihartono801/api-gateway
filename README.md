@@ -15,14 +15,16 @@
 - https://github.com/dedihartono801/protobuf - Proto file
 - https://github.com/dedihartono801/ssl - For generate your ssl each service
 
+## Create database auth_svc,product_svc,order_svc
+
 ## Installation
 
 ```bash
 #clone all repo services
-#create folder "ssl" in each services (auth-svc,order-svc,product-svc) 
+#create folder "ssl" in each services (auth-svc,order-svc,product-svc,api-gateway) 
 #go to your ssl repo and generate ssl with command below:
 $ ./run.sh
-#and then ssl generated, copy all folders (auth-svc,order-svc,product-svc) in ssl repo to "ssl folder" that you have made before
+#and then ssl generated, copy all folders (auth-svc,order-svc,product-svc,api-gateway) in ssl repo to "ssl folder" that you have made before
 ```
 
 ## Running the app
